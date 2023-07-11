@@ -1,19 +1,22 @@
 {
-  "name": "@uniswap/sdk-core",
+  "name": "@hiroshitash/uniswap-sdk-fractions",
   "license": "MIT",
   "version": "3.2.6",
-  "description": "⚒️ An SDK for building applications on top of Uniswap V3",
+  "description": "⚒️ Fractions module extracted from Uniswap SDK",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk-core.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroshitash/uniswap-sdk-fractions.git"
+  },
   "keywords": [
     "uniswap",
     "ethereum"
   ],
-  "module": "dist/sdk-core.esm.js",
+  "module": "dist/sdk-fractions.esm.js",
   "scripts": {
     "build": "tsdx build",
     "start": "tsdx watch",
@@ -21,7 +24,6 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@ethersproject/address": "^5.0.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.4",
@@ -40,5 +42,10 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hiroshitash/uniswap-sdk-fractions/issues"
+  },
+  "homepage": "https://github.com/hiroshitash/uniswap-sdk-fractions#readme",
+  "author": "hiroshitash"
 }
