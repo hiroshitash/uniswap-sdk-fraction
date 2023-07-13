@@ -14,5 +14,5 @@ npm install @hiroshitash/uniswap-sdk-fraction
 Then, you can import Fraction below.
 
 ```
-import {Fraction } from '@hiroshitash/uniswap-sdk-fraction'
+import { Fraction } from '@hiroshitash/uniswap-sdk-fraction'
 ```
